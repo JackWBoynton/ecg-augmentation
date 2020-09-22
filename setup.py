@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ecgaugmentation", # Replace with your own username
-    version="0.0.1",
+    version="0.0.4",
     author="Jack Boynton",
     author_email="jwboynto@uvm.edu",
     description="ECG augmentation ",
