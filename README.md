@@ -23,7 +23,7 @@ in_path = "." # path to -fecg.npy ECG files
 iterations = 100
 anomaly_type = "RBBB"
 
-ecgs, annotations = ecgaugmentation.augment(in_path, out_path, anomaly_type)
+ecgs, annotations = ecgaugmentation.augment(in_path, anomaly_type, iterations)
 ```
 
 ## Contributing
